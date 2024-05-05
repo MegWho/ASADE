@@ -1,0 +1,51 @@
+<html>
+   <head>
+    <title> ASADE Home Page </title>
+    <link rel="stylesheet" href="ASADE.css">
+    <link rel="script" href="script.js">
+   </head>
+
+   <header>
+    <h1> <a href="ASADE.html"> <img width="180px" height="auto" src="wp03.png"></a> </h1>
+    <nav>
+        <ul>
+            <li> <a href="ASADE.html" style="color: #e9ecec;", size="7"> HOME </a> </li>
+            <li> <a href="#" style="color: #e9ecec;", size="7"> ABOUT </a> </li>
+            <li> <div class="dropdown">
+                <a href="Missions" style="color: #e9ecec;", size="7"> MISSIONS </a>
+                    <div class="dropdown-content">
+                        <a href="Exoplanets.html" style="color:#c8cdcd", size="5"> EXOPLANETS </a>
+                        <a href="Constellations.html" style="color:#c8cdcd", size="5"> CONSTELLATIONS </a>
+                    </div>
+            </div>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+    <style>
+        body {
+          background-image: url('abstract.jpeg');
+          background-repeat:no-repeat;
+          background-size: 1440px 1000px;
+        }
+    </style>
+
+<form action="ASADE.php" method="post">
+    <div class="info">
+      <h2 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: rgb(206, 199, 199);"> Subscribe to our Newsletter</h2>
+
+      <input type="text" placeholder="Name" Name="Name" required>
+      <input type="text" placeholder="Email address" Name="Email" required>
+
+      <label style="color: rgb(206, 199, 199); font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+        
+        <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
+      </label>
+    </div>
+  
+    <div class="info" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;" >
+      <input type="submit" value="Subscribe">
+    </div>
+  </form>
+</html>

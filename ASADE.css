@@ -1,0 +1,96 @@
+header {
+  background-image: linear-gradient(to bottom, rgba(20, 61, 108, 0.763), rgba(255, 255, 255, 0));
+  padding: 0px;
+  margin:-10px;
+  display: flex;
+  justify-content: space-between; /* Space items evenly */
+  align-items: center; /* Align items vertically */
+}
+
+nav ul {
+  list-style: none; /* Remove bullet points */
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline-block; /* Display items horizontally */
+  margin-right: 10px;
+}
+
+nav a {
+  text-decoration: none; /* Remove underline */
+  font-size: x-large;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav a:hover {
+  color: #483f3f; /* Change color on hover */
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: fixed;
+  background-color: #020e20;
+  border-radius: 2px;      
+  min-width: 10px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  text-align: left;
+}
+.dropdown-content a {
+  color:  #011029;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {background-color: #100e0e;}
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Style the input elements and the submit button */
+input[type=text], input[type=submit] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #74370c;
+}
+
+/* Add margins to the checkbox */
+input[type=checkbox] {
+  margin-top: 16px;
+  color: rgb(206, 199, 199);
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: #643310;
+  color: rgb(206, 199, 199);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; justify-content: center;
+  border: none;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+
+.info 
+{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.info {  
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: #a9abaf;; 
+    border: 5px;
+    padding: 5px;
+    margin: 90px 900px 60px 20px;
+    font: bolder;
+    font-size: large;
+  }
